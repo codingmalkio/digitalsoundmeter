@@ -1,0 +1,7 @@
+rootProject.name = 'DigitalSoundMeter'
+include ':react-native-audiowaveform'
+project(':react-native-audiowaveform').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audiowaveform/android')
+include ':react-native-audio'
+project(':react-native-audio').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-audio/android')
+
+include ':app'
